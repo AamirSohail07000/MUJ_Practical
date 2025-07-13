@@ -1,3 +1,4 @@
+// Program to check whether a student passed or failed 
 import java.util.Scanner;
 
 public class student_pass_fail {
