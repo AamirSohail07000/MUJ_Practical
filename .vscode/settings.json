@@ -5,6 +5,7 @@
     "*.html.jinja": "html",
     "stdio.h": "c",
     "LargestSmallestArray.C": "cpp",
-    "stack": "cpp"
+    "stack": "cpp",
+    "ostream": "cpp"
   }
 }
