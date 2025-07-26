@@ -4,3 +4,12 @@ Python/Python_Exercise/tempCodeRunnerFile.py
 .vscode/settings.json
 Python/practical/tempCodeRunnerFile.py
 *.exe
+.vscode/
+tempCodeRunnerFile.cpp
+# Ignore object files
+*.o
+*.obj
+
+# Ignore build folders
+/build/
+/bin/
