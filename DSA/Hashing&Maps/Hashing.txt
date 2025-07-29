@@ -1,0 +1,10 @@
+Concept of Hashing and Maps
+Hashing is a technique to map data to a location in memory using a hash function.
+
+In C++, we use:
+
+unordered_map → Stores key-value pairs, provides O(1) average lookup.
+
+unordered_set → Stores unique values, provides O(1) average lookup.
+
+These help us avoid O(n²) searches and instead get results in O(n) or better.
