@@ -6,9 +6,11 @@ Python/practical/tempCodeRunnerFile.py
 *.exe
 .vscode/
 tempCodeRunnerFile.cpp
+
 # Ignore object files
 *.o
 *.obj
+*.class
 
 # Ignore build folders
 /build/
