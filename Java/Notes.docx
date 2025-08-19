@@ -1,0 +1,42 @@
+Constructor Overloading vs Method Overloading in Java
+
+Constructor Overloading
+
+Constructors are special methods used to initialize objects.
+
+Constructor overloading means defining multiple constructors in the same class with different parameter lists.
+
+Purpose: To allow creating objects in different ways.
+
+Example:
+
+class Student {
+    Student() { }                  // No-arg constructor
+    Student(String name) { }       // Constructor with 1 parameter
+}
+
+
+Method Overloading
+
+Method overloading means defining multiple methods with the same name but different parameter lists (number/type/order of parameters).
+
+Purpose: To perform different tasks with the same method name for code readability.
+
+Example:
+
+class Calculator {
+    int add(int a, int b) { return a+b; }
+    double add(double a, double b) { return a+b; }
+}
+
+
+Key Differences
+Feature	                    Constructor Overloading	                Method Overloading
+Purpose	            Initialize objects in different ways	        Perform similar operations with different inputs
+Return Type	        No return type (not even void)	                Must have a return type
+When Called	        Automatically when object is created	        Explicitly called by the programmer
+Example	            Student("Rahul")	                            add(10, 20) or add(10.5, 20.5)
+
+👉 In short:
+Constructor Overloading = Different ways to create objects.
+Method Overloading = Different ways to call the same method with different inputs.
